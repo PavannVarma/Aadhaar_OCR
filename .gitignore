@@ -1,0 +1,26 @@
+# Ignore compiled classes and binaries
+bin/
+*.class
+*.jar
+
+# Ignore IDE settings
+.settings/
+.project
+.classpath
+
+# Ignore Tesseract models
+tessdata/
+*.traineddata
+
+# Ignore plugin and dependency folders
+4d-plugin-tesseract-master/
+jars/
+
+# Ignore crash logs
+hs_err_pid*.log
+
+# OS and temp files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
